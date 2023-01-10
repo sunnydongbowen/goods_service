@@ -1,9 +1,10 @@
-module goods_services
+module goods_service
 
 go 1.19
 
 require (
 	github.com/fsnotify/fsnotify v1.6.0
+	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/spf13/viper v1.14.0
 	go.uber.org/zap v1.21.0
 	google.golang.org/grpc v1.50.1
@@ -29,6 +30,7 @@ require (
 	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/genproto v0.0.0-20221116193143-41c2ba794472 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
